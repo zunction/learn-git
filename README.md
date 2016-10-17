@@ -33,12 +33,14 @@ Tip: `pwd` is used to check which directory you are in, `cd` to change to the di
 
 **Forking a repository**
 
-A *fork* is a copy of a repository. Forking a repository belongs to you and thus allows you to freely experiment with changes without affecting the original project. You might fork a repository in order to propose changes to the original project, build on something new based on the project. Here we will fork this repository and propose changes to this project. To fork this project, click on the `Fork` on the top right hand corner below your profile pic.
+A *fork* is a copy of a repository. Forking a repository belongs to you and thus allows you to freely experiment with changes without affecting the original project. You might fork a repository in order to propose changes to the original project, build on something new based on the project. Here we will fork this repository and propose changes to this project. To fork this project, click on the `Fork` on the top right hand corner below your profile picture.
 
-
+----
 Ignore everything below for now.
 
 **Cloning a repository**
+
+Once you fork a repository, it will bring you to a repository that now **belongs to you** but contains exactly the same files the repository that you forked. This allows you to clone it to your machine and edit/experiment with the files in it any way you like till your hearts content.
 
 ```git
 git clone https://github.com/zunction/HomeworkTeX *foldername*

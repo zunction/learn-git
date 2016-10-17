@@ -31,6 +31,8 @@ Assuming that you have a Github account (and signed in) and Git distribution on 
 
 Tip: `pwd` is used to check which directory you are in, `cd` to change to the directory that you want to access, `ls` is for you to check if the file you are trying to access is in that directory. Use them to navigate around the directories and find your files :)
 
+Protip: Use `tab` to auto-complete your file names or commands.
+
 **Forking a repository**
 
 A *fork* is a copy of a repository. Forking a repository belongs to you and thus allows you to freely experiment with changes without affecting the original project. You might fork a repository in order to propose changes to the original project, build on something new based on the project. Here we will fork this repository and propose changes to this project. To fork this project, click on the `Fork` on the top right hand corner below your profile picture.

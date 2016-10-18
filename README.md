@@ -33,12 +33,12 @@ Tip: `pwd` is used to check which directory you are in, `cd` to change to the di
 
 Protip: Use `tab` to auto-complete your file names.
 
-**Forking a repository**
+### Forking a repository
 
 A *fork* is a copy of a repository. Forking a repository belongs to you and thus allows you to freely experiment with changes without affecting the original project. You might fork a repository in order to propose changes to the original project, build on something new based on the project. Here we will fork this repository and propose changes to this project. To fork this project, click on the `Fork` on the top right hand corner below your profile picture.
 
 
-**Cloning a repository**
+### Cloning a repository
 
 Once you fork a repository, it will bring you to a repository that now **belongs to you** but contains exactly the same files the repository that you forked. This allows you to clone it to your machine and edit/experiment with the files in it any way you like till your hearts content.
 
@@ -47,7 +47,7 @@ git clone https://github.com/*yourusername*/*nameofrepo* *foldername*
 ```
 if `*foldername*` is left empty, the folder name will be `*nameofrepo*`. After cloning a repository, you need to `cd *foldername*` to enter the directory/repository.
 
-**Checking the status of the repository**
+### Checking the status of the repository
 
 Once inside you can,
 
@@ -63,7 +63,7 @@ Your branch is up-to-date with 'origin/master'.
 Nothing to commit, working tree clean
 ```
 
-**Making changse to your files**
+### Making changse to your files
 
 Notice the typo in the above? Access the `README.md` file in the repository that you cloned to your machine, rectify the spelling mistake and save!
 Now if you do a `git status` again, you will get:
@@ -81,7 +81,7 @@ no changes added to commit (use "git add" and/or "git commit -a")
 
 this means that you have made some changes to your files and have not commited it. One can think of committing as double confirming that the changes you have made is really what you want. But before committing your files, you have to stage them first, [which is to prepare your files for commit](http://programmers.stackexchange.com/questions/119782/what-does-stage-mean-in-git). Lastly, whenever you are in doubt about the status of your *local repository* (since it is on your machine), `git status` is the command to use.
 
-**Staging modified files**
+### Staging modified files
 
 Staging you files is very simple, if you want to stage all the files in that repository
 
@@ -104,6 +104,6 @@ Ignore everything below for now.
 
 
 
-**Committing your changes**
+### Committing your changes
 
 to be continued...

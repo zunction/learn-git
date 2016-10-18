@@ -31,23 +31,21 @@ Assuming that you have a Github account (and signed in) and Git distribution on 
 
 Tip: `pwd` is used to check which directory you are in, `cd` to change to the directory that you want to access, `ls` is for you to check if the file you are trying to access is in that directory. Use them to navigate around the directories and find your files :)
 
-Protip: Use `tab` to auto-complete your file names or commands.
+Protip: Use `tab` to auto-complete your file names.
 
 **Forking a repository**
 
 A *fork* is a copy of a repository. Forking a repository belongs to you and thus allows you to freely experiment with changes without affecting the original project. You might fork a repository in order to propose changes to the original project, build on something new based on the project. Here we will fork this repository and propose changes to this project. To fork this project, click on the `Fork` on the top right hand corner below your profile picture.
 
-----
-Ignore everything below for now.
 
 **Cloning a repository**
 
 Once you fork a repository, it will bring you to a repository that now **belongs to you** but contains exactly the same files the repository that you forked. This allows you to clone it to your machine and edit/experiment with the files in it any way you like till your hearts content.
 
 ```git
-git clone https://github.com/zunction/HomeworkTeX *foldername*
+git clone https://github.com/*yourusername*/*nameofrepo* *foldername*
 ```
-if `*foldername*` is left empty, the folder name will be HomeworkTeX. After cloning a repository, you need to `cd *foldername*` to enter the directory/repository.
+if `*foldername*` is left empty, the folder name will be `*nameofrepo*`. After cloning a repository, you need to `cd *foldername*` to enter the directory/repository.
 
 **Checking the status of the repository**
 
@@ -64,7 +62,11 @@ On branch master
 Your branch is up-to-date with 'origin/master'.
 Nothing to commit, working tree clean
 ```
-but if you have made changes to any file in the directory/repository say the README.md which displays what you are reading, you will get
+
+**Making changse to your files**
+
+Notice the typo in the above? Access the `README.md` file in the repository that you cloned to your machine, rectify the spelling mistake and save!
+Now if you do a `git status` again, you will get:
 
 ```git
 $ git status
@@ -77,11 +79,30 @@ Changes not staged for commit:
 no changes added to commit (use "git add" and/or "git commit -a")      
 ```
 
-when you are not sure about the status of your *local repository* (since it is on your machine), `git status` is the command to use to check.
-
-**How to stage your changes**
+this means that you have made some changes to your files and have not commited it. One can think of committing as double confirming that the changes you have made is really what you want. But before committing your files, you have to stage them first, [which is to prepare your files for commit](http://programmers.stackexchange.com/questions/119782/what-does-stage-mean-in-git). Lastly, whenever you are in doubt about the status of your *local repository* (since it is on your machine), `git status` is the command to use.
 
 **Staging modified files**
+
+Staging you files is very simple, if you want to stage all the files in that repository
+
+```git
+$ git add *
+```
+But if you only have a specific file to be staged, say `README.md`
+
+```git
+$ git add README.md
+```
+
+this functionality allows you to stage selected files for commit which is useful if you are working on two different files in the same repository but you only want to commit one of them. Staging only the file that you want to commit will effectively commit that file when we commit later.
+
+
+----
+Ignore everything below for now.
+
+
+
+
 
 **Committing your changes**
 

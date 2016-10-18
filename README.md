@@ -1,5 +1,5 @@
 # learn-git
-An introduction to collaboration using Git and Github.
+An introduction to collaboration using Git and Github. This is my humble effort in trying to write an easy to start with and understand Git and GitHub tutorial for my classmates. Please feel free to suggest improvements to this tutorial.
 
 ## Introduction
 This learning journey will help you acquire the skills to collaborate using Git and Github. Anyone is welcome to fork it and learn!
@@ -109,18 +109,20 @@ You have just made your first commit! At this point of time you might be tempted
 
 ### Pushing to your remotes
 
-To see your changes updated on your GitHub repository, we need one final step which is to `git push origin master`. The explanation for this wording `origin master` cannot be explained in a few lines of words and hence for now we shall just accept this command and push your changes back to your GitHub repository.
+To see your changes updated on your GitHub repository, we need one final step which is to `git push origin master`. The explanation for this wording `origin master` cannot be explained in a few lines of words and hence for now we shall just accept this command and push your changes back to your GitHub repository. You will be prompted for your GitHub username and password when pushing your updates to your remotes, so have your username and password on hand when doing this for the first time.
 
 ```git
 $ git push origin master
+Counting objects: 1, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (1/1), 1.10 KiB | 0 bytes/s, done.
+Total 6 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local objects.
+To https://github.com/zunction/learn-git
+   7d59c11..e139384  master -> master
 ```
+TADA!! You can check your GitHub repository now! The changes has been successfully updated on your repository!
 
-
-
-
-
-
-----
-Ignore everything below for now.
 
 to be continued...

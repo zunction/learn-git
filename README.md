@@ -20,7 +20,7 @@ To start off, we first need two things: *Git* and *Github* account.
 
 Assuming that you have a Github account (and signed in) and Git distribution on your machine we are ready to start! Start up your Terminal or PortableGit for Mac and Windows system respectively. We shall go through some simple commands required to maneuver around Terminal or PortableGit.
 
-**Basics**
+#### Basics
 
 |  Command            | Function                                               |
 |:-------------------:|--------------------------------------------------------|

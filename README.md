@@ -101,7 +101,22 @@ Now we are ready to commit our changes. Remember, only those files that are stag
 
 ```git
 $ git commit -m 'edited typos'
+[master 53247fe] edited typos
+ 1 file changed, 1 insertions(+), 1 deletions(-)
 ```
+
+You have just made your first commit! At this point of time you might be tempted to go check your repository on Github to see if the changes have been made to it. Unfortunately, what you only did was to commit your changes to your local copy. There is still another step to be done for you to see your changes updated on your Github repository.
+
+### Pushing to your remotes
+
+To see your changes updated on your GitHub repository, we need one final step which is to `git push origin master`. The explanation for this wording `origin master` cannot be explained in a few lines of words and hence for now we shall just accept this command and push your changes back to your GitHub repository.
+
+```git
+$ git push origin master
+```
+
+
+
 
 
 

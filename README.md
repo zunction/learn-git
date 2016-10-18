@@ -96,14 +96,16 @@ $ git add README.md
 
 this functionality allows you to stage selected files for commit which is useful if you are working on two different files in the same repository but you only want to commit one of them. Staging only the file that you want to commit will effectively commit that file when we commit later.
 
+### Committing your changes
+Now we are ready to commit our changes. Remember, only those files that are staged in the earlier process will be committed when you do a git commit now. When we do a git commit, it is a good habit to add a message to the commit so it is easier to keep track of the changes/additions that was made to the file in this commit.
+
+```git
+$ git commit -m 'edited typos'
+```
+
+
 
 ----
 Ignore everything below for now.
-
-
-
-
-
-### Committing your changes
 
 to be continued...

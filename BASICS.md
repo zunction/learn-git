@@ -118,7 +118,7 @@ remote: Resolving deltas: 100% (2/2), completed with 1 local objects.
 To https://github.com/zunction/learn-git
    7d59c11..e139384  master -> master
 ```
-TADA!! You can check your GitHub repository now! The changes has been successfully updated on your repository!
+TADA!! You can check your GitHub repository now! The changes has been successfully updated on your repository! :clap:
 
 
 Next up, Branching in Git!

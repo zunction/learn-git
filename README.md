@@ -4,5 +4,5 @@ An introduction to collaboration using Git and Github. This is my humble effort 
 ## Introduction
 This learning journey will help you acquire the skills to collaborate using Git and Github. Anyone is welcome to fork it and learn!
 
-1. Basics
-2. Branching
+1. [Basics](https://github.com/zunction/learn-git/blob/master/BASICS.md)
+2. [Branching](https://github.com/zunction/learn-git/blob/master/BRANCHING.md)

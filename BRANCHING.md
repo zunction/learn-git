@@ -49,7 +49,7 @@ Feature Based Workflow. Create new branches for each new feature you're working 
 Disposable Experimentation. Create a branch to experiment in, realize it's not going to work, and just delete it - abandoning the work—with nobody else ever seeing it (even if you've pushed other branches in the meantime).
 ---
 
-Hint: Remember to `add` and `commit` for the changes to take place!
+Hint: Remember to `add` and `commit` for the changes to take place (locally)!
 
 
 To be continued...

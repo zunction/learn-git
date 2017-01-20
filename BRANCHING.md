@@ -35,6 +35,8 @@ Switched to branch 'v1.1'
 and once you are on branch `v1.1` you are free to make any wild or irreversible changes without any worries; should you work on branch `v1.1` be messed up beyond repair, you always have the good and working version `master` to fall back to.
 
 Below is a chunk of text about Git and you would like to create a version of this file without it. In the raw `.md` file, this chunk of text starts and ends with `---`. By using the branching technique that we learnt above, create a new branch `v1.1` (or any branch name that you like) and remove this chunk of text (including the `---`).
+
+
 ---
 
 The Git feature that really makes it stand apart from nearly every other SCM out there is its branching model.
@@ -47,6 +49,8 @@ Frictionless Context Switching. Create a branch to try out an idea, commit a few
 Role-Based Codelines. Have a branch that always contains only what goes to production, another that you merge work into for testing, and several smaller ones for day to day work.
 Feature Based Workflow. Create new branches for each new feature you're working on so you can seamlessly switch back and forth between them, then delete each branch when that feature gets merged into your main line.
 Disposable Experimentation. Create a branch to experiment in, realize it's not going to work, and just delete it - abandoning the work—with nobody else ever seeing it (even if you've pushed other branches in the meantime).
+
+
 ---
 
 Hint: Remember to `add` and `commit` for the changes to take place (locally)!
